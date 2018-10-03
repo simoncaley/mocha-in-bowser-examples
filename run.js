@@ -1,5 +1,5 @@
-import "./test/nexchange.test.js";
-import "./test/nexchange-two.test.js";
+import "./test/nexchange-USD.test.js";
+import "./test/nexchange-BTC.test.js";
 
 mocha.checkLeaks();
 mocha.run();
