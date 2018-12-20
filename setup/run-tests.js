@@ -7,4 +7,9 @@ import "../test/nexchange-USD.test.js";
 import "../test/nexchange-BTC.test.js";
 
 mocha.checkLeaks();
+
+/**
+ * Now that the tests are loaded, run Mocha
+ */
+
 mocha.run();
